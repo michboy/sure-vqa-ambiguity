@@ -3,7 +3,7 @@
 This project is a submission for the **SURE Program (Human-AI Lab)**. It is a Visual Question Answering (VQA) system designed to help blind and low-vision users resolve ambiguity in visual content through two distinct interaction modes.
 
 ## 🎥 Demo Video
-https://drive.google.com/file/d/1_WQ-SGOUoJOaWFaepDNY1Awvs_zZ_3pu/view?usp=drive_link
+https://drive.google.com/file/d/1_WQ-SGOUoJOaWFaepDNY1Awvs_zZ_3pu/view?usp=sharing
 
 ## ✨ Key Features
 1. **Live Video & Voice Interaction (New):**
