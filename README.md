@@ -57,6 +57,7 @@ npm install
 npm start
 ```
 Open http://localhost:3000 to view it in your browser.
+
 **Note:** When you start the app, please allow **Camera and Microphone permissions** in your browser to use the Live Mode features.
 
 ## ♿ Accessibility Verification
