@@ -6,18 +6,21 @@ This project is a submission for the **SURE Program (Human-AI Lab)**. It is a Vi
 https://drive.google.com/file/d/1_WQ-SGOUoJOaWFaepDNY1Awvs_zZ_3pu/view?usp=drive_link
 
 ## ✨ Key Features
-1. **Two Interaction Modes:**
+1. **Live Video & Voice Interaction (New):**
+    * **Real-time VQA:** Supports live webcam input to analyze objects in real-time.
+    * **Push-to-Talk:** Implemented a Spacebar-controlled voice interface, allowing users to speak questions hands-free while holding objects.
+2. **Two Interaction Modes:**
     * **Respond in One Pass:** Delivers a comprehensive description of all ambiguous objects at once.
     * **Clarify Iteratively:** Engages in a multi-turn dialogue to clarify user intent before answering.
-2. **Ambiguity Detection:** Automatically detects if a user's question applies to multiple objects (e.g., "Where is the cup?" when two cups exist).
-3. **Accessibility First:**
+3. **Ambiguity Detection:** Automatically detects if a user's question applies to multiple objects (e.g., "Where is the cup?" when two cups exist).
+4. **Accessibility First:**
     * **Text-to-Speech (TTS):** Real-time voice feedback using Web Speech API.
     * **Screen Reader Support:** Semantic HTML and ARIA live regions.
     * **Keyboard Navigation:** Full support for non-mouse interaction.
-4. **Multi-Language Support:** Supports both English and Korean.
+5. **Multi-Language Support:** Supports both English and Korean.
 
 ## 🛠️ Tech Stack
-* **Frontend:** React.js, Axios, Web Speech API
+* **Frontend:** React.js, Axios, react-webcam, Web Speech API
 * **Backend:** FastAPI, Python 3.10+
 * **AI Model:** Google Gemini 1.5 Flash (via Google Gen AI SDK)
 
@@ -59,3 +62,4 @@ Open http://localhost:3000 to view it in your browser.
 * Tested with keyboard-only navigation (Tab/Enter).
 * Verified dynamic content announcements using ARIA live regions.
 * Integrated high-contrast UI elements.
+* Push-to-Talk Test: Verified that holding/releasing the Spacebar correctly triggers the microphone and captures the image without delay.
